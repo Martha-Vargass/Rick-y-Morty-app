@@ -1,5 +1,8 @@
 import React from 'react';
+
+
 export default function Card(props) {
+   
    const {name, species, gender, image, onClose } = props;
    return (
       <div>
