@@ -1,10 +1,10 @@
-import Card from './Card';
+import Card from '../Card/Card.jsx';
 
 
 export default function Cards(props) {
    const { characters } = props;
    return (
-   <div>
+   <div style={{ display: 'flex', justifyContent: 'space-evenly', margin: '0 auto'}}>
       {characters.map((character)=>(
          <Card
          key={character.id}

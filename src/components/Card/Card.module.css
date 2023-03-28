@@ -1,0 +1,105 @@
+.container {
+ 
+    background-color: rgb(135, 87, 184); 
+    border: 3px solid rgba(255, 6, 139, 0.8);
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.8);
+
+}
+
+.imagen{
+  display: block;
+  margin: 0;
+  width: 150px;
+  border: 3px solid rgba(255, 6, 139, 0.8);
+  border-radius: 10px;
+
+}
+
+.button{
+  background-position: rgba(255, 20, 147, 0.8);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  /* padding: 16px; */
+
+
+}
+
+.button button {
+ background: rgba(255, 20, 147, 0.8);
+ 
+  border-radius: 3px;
+  font-weight: bold;  
+  /* position: relative; */
+  background: linear-gradient(
+    45deg, rgba(255, 20, 147, 0.8), rgba(255, 105, 180, 0.8), rgb(128, 0, 128), rgb(221, 160, 221), 
+    rgb(135, 206, 235), rgb(0, 191, 255), white
+  );
+  background-size: 100%;
+  filter: blur(0px);
+  animation: glowing 20seg linear infinite;
+}
+@keyframes glowing {
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  };
+  
+}
+
+
+/* } */
+  /* cursor: pointer;
+  margin: 3px, 3px, 0 0;
+  background-color: rgba(255, 105, 180, 0.8);
+  color: rgba(255, 253, 255, 0.8);
+ 
+ */ 
+
+
+ 
+
+.data {
+  display: flex;
+  justify-content: space-around;
+}
+    
+      
+
+.galaxy {
+    background-color: rgb(38, 0, 77); /* Fucsia oscuro */
+    background-image: 
+      radial-gradient(white 1px, transparent 0),
+      radial-gradient(white 1px, transparent 0),
+      radial-gradient(rgb(75, 0, 130) 1px, transparent 0),
+      radial-gradient(rgb(75, 0, 130) 1px, transparent 0),
+      radial-gradient(rgb(0, 191, 255) 1px, transparent 0),
+      radial-gradient(rgb(0, 191, 255) 1px, transparent 0),
+      radial-gradient(rgb(135, 206, 235) 1px, transparent 0),
+      radial-gradient(rgb(135, 206, 235) 1px, transparent 0),
+      radial-gradient(rgb(221, 160, 221) 1px, transparent 0),
+      radial-gradient(rgb(221, 160, 221) 1px, transparent 0),
+      radial-gradient(rgb(128, 0, 128) 1px, transparent 0),
+      radial-gradient(rgb(128, 0, 128) 1px, transparent 0),
+      radial-gradient(rgba(255, 20, 147, 0.8) 1px, transparent 0),
+      radial-gradient(rgba(255, 20, 147, 0.8) 1px, transparent 0),
+      radial-gradient(rgba(255, 105, 180, 0.8) 1px, transparent 0),
+      radial-gradient(rgba(255, 105, 180, 0.8) 1px, transparent 0);
+    background-size: 1px 1px;
+    background-position: 0 0, 10px 50px, 50px 10px, 90px 90px, 100px 200px, 200px 100px, 250px 250px, 350px 300px, 400px 150px, 450px 400px, 500px 500px, 550px 250px, 600px 150px, 650px 350px, 700px 450px, 750px 200px;
+
+}
+    
+  
+  
+
+
